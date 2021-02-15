@@ -3,6 +3,8 @@ import UserService from '../services/UserService';
 
 export default class UserComponent extends React.Component {
     constructor(props){
+        // send HTTP request
+        // save it to the state
         super(props);
         this.state = {
             users: []
